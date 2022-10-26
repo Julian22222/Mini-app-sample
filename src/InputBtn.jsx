@@ -7,9 +7,9 @@ const InputBtn = () => {
   const DeleteButton = () => {
     return (
       <button
-        key={item}
-        list={list}
-        setList={setList}
+        // key={item}
+        // list={list}
+        // setList={setList}
         className="DelBtn"
         onClick={(event) => {
           event.preventDefault();
